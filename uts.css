@@ -1,0 +1,41 @@
+.flex-wrap: ;{
+	margin: 0;
+	padding: 0;
+}
+/*bagian header*/
+.wrap .header{
+	background-color: plum;
+	/*height: 50px;*/
+	padding: 1px 10px;
+}
+
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 1000px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: lightpink;
+	float: left;	
+	width: 12%;
+	height: 110%;
+}
+ 
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background: lightgoldenrodyellow;
+	float: left;
+	height: 110%;
+	width: 88%;	
+}
+ 
+.wrap .footer{
+	width: 100%;
+	padding: 30px;
+	background-color: plum;
+}
